@@ -50,12 +50,10 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
-                                      ]))
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Cartoonworldtelugu_india")],
+                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@pokemonintelugu")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/Pokemonallseasonsintelugu')]
+				      ]))
         return
     if id:
         if old == True:
@@ -64,11 +62,9 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Cartoonworldtelugu_india")],
+                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@pokemonintelugu")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/Pokemonallseasonsintelugu')]
                                           ]))
             except:
                 return
@@ -106,8 +102,8 @@ async def send_doc(client, message):
             await message.reply_text("**__You are not subscribed my channel__** ",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
-            await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/Cartoonworldtelugu_india")]]))
+            await client.send_message(log_channel,f"🦋 #CWT 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
 
