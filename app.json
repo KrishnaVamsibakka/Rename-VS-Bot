@@ -1,7 +1,7 @@
 
 {
 
-    "name": "Gangster Baby Renamer Bot",
+    "name": "Rename VS Bot",
 
     "description": "Telegram File Renamer Bot 4GB ",
 
@@ -13,13 +13,13 @@
 
         "telegram",
         
-        "LazyDeveloperr"
+        "Vamsi"
 
     ],
 
-    "repository": "https://github.com/LazyDeveloperr/Gangster-Baby-V2",
+    "repository": "",
 
-    "success_url": "https://telegram.dog/LazyDeveloperr",
+    "success_url": "https://telegram.dog/Vamsi_2008_vamsi",
 
     "env": {
 
